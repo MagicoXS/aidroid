@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/container" android:orientation="vertical" android:padding="10dp" android:layout_margin="4dp" android:background="@color/aui_card" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/tvWho" android:textSize="10sp" android:textStyle="bold" android:layout_marginBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@+id/tvMessage" android:textColor="@color/aui_text" android:textSize="14sp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

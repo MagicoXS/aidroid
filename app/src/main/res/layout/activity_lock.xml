@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:gravity="center" android:background="@color/aui_black" android:padding="24dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="🔒 AUI" android:textColor="@color/aui_yellow" android:textSize="32sp" android:textStyle="bold" android:layout_marginBottom="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <EditText android:id="@+id/etPin" android:hint="PIN" android:inputType="numberPassword" android:textColor="@color/aui_text" android:background="@color/aui_card_light" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <Button android:id="@+id/btnUnlock" android:text="🔓 فتح" android:backgroundTint="@color/aui_yellow" android:textColor="#0A0A0A" android:layout_marginTop="16dp" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

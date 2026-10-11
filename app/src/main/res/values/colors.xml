@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aui_yellow">#FFD60A</color>
+    <color name="aui_purple">#BF5AF2</color>
+    <color name="aui_black">#0A0A0A</color>
+    <color name="aui_card">#1C1C1E</color>
+    <color name="aui_card_light">#2C2C2E</color>
+    <color name="aui_text">#FFFFFF</color>
+    <color name="aui_text_dim">#8E8E93</color>
+    <color name="aui_green">#30D158</color>
+    <color name="aui_red">#FF453A</color>
+    <color name="aui_blue">#0A84FF</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/gradient_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:background="@drawable/gradient_header" android:padding="14dp" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="🤖 AUI LLM v2.0" android:textColor="#0A0A0A" android:textSize="22sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/tvAdminStatus" android:text="⚠️" android:textColor="#0A0A0A" android:textSize="12sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button android:id="@+id/btnAdmin" android:text="🛡️ تفعيل الحماية" android:textColor="#FFFFFF" android:textStyle="bold" android:padding="14dp" android:layout_margin="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:text="🔑 المفاتيح" android:textColor="@color/aui_yellow" android:textStyle="bold" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rvKeys" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingHorizontal="8dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btnChat" android:text="💬 Chat" android:textColor="#0A0A0A" android:textStyle="bold" android:backgroundTint="@color/aui_yellow" android:layout_weight="1" android:layout_margin="6dp" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/btnNotes" android:text="📝 Notes" android:textColor="#0A0A0A" android:textStyle="bold" android:backgroundTint="@color/aui_purple" android:layout_weight="1" android:layout_margin="6dp" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/btnSettings" android:text="⚙️" android:textColor="#0A0A0A" android:textStyle="bold" android:backgroundTint="@color/aui_yellow" android:layout_weight="1" android:layout_margin="6dp" android:layout_width="0dp" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

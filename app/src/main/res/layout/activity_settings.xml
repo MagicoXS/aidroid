@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/gradient_bg" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="⚙️ Settings" android:textColor="@color/aui_yellow" android:textSize="22sp" android:textStyle="bold" android:layout_marginBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:text="AUI LLM v2.0\nAI Agent + Notebook\n\n• تشفير كامل لقاعدة البيانات\n• ذاكرة محادثة (10 رسائل)\n• Markdown في الملاحظات\n• Device Admin\n• كل الصلاحيات" android:textColor="@color/aui_text" android:textSize="14sp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>
